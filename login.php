@@ -13,22 +13,22 @@
             <h2>Log In</h2>
         </div>
 
-        <form action="registration.php" method="post">
+        <form action="login.php" method="post">
 
             <div>
                 <label for="username">Username:</label>
-                <input type="text" name="username" placeholder="Enter your username">
+                <input type="text" name="username" placeholder="Enter your username" required>
             </div>
 
             <div>
                 <label for="password">Password:</label>
-                <input type="password" name="password_1" placeholder="Enter your password">
+                <input type="password" name="password_1" placeholder="Enter your password" required>
             </div>
 
 
-            <button type="submit">Log In</button>
+            <button type="submit" name="Login_user">Log In</button>
 
-<p>Not a user?<a href="registration.php"><b> Register Here</b></a></p>
+            <p>Not a user?<a href="registration.php"><b> Register Here</b></a></p>
 
         </form>
     </div>
