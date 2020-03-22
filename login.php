@@ -10,7 +10,7 @@
 <body>
     <div class="container">
         <div class="header">
-            <h2>Register</h2>
+            <h2>Log In</h2>
         </div>
 
         <form action="registration.php" method="post">
@@ -19,23 +19,16 @@
                 <label for="username">Username:</label>
                 <input type="text" name="username" placeholder="Enter your username">
             </div>
-            <div>
-                <label for="email">Email:</label>
-                <input type="email" name="email" placeholder="Enter your email">
-            </div>
 
             <div>
                 <label for="password">Password:</label>
                 <input type="password" name="password_1" placeholder="Enter your password">
             </div>
 
-            <div>
-                <label>Confirm password:</label>
-                <input type="password" name="password_2" placeholder="Type password again">
-            </div>
-            <button type="submit">Submit</button>
 
-<p>Already a user?<a href="login.php"><b> Log In</b></a></p>
+            <button type="submit">Log In</button>
+
+<p>Not a user?<a href="registration.php"><b> Register Here</b></a></p>
 
         </form>
     </div>
